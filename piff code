@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class pifff
+{
+    public static void main(String[] args) {
+    Scanner piffsong = new Scanner(System.in);
+    System.out.println("Hey, what is your favorite Piff Corp Song from the first album?");
+    System.out.print("You can choose from Birth of Piff, Younger Gripper, James Freestyle, Noah Woods Beanie, BrightBart, Meowxerz, Piff Clit, Terraria 2, or fan favorite: FUCK GRACE ACAB");
+    System.out.println();
+    String songchoice = piffsong.nextLine().toLowerCase();
+    if(songchoice.equals("felly"))
+    {System.out.println("Bro it is 2020 why the living fuck are you listening to felly");}
+    if(songchoice.equals("birth of piff") || songchoice.equals("young gripper"))
+    {
+        System.out.println("Nice choice man, would you like to listen to " + songchoice + "?");
+        Scanner piffsong2 = new Scanner(System.in);
+        String listen = piffsong2.nextLine().toLowerCase();
+        if(listen.equals("yes"))
+        {
+            System.out.println("sample_text");
+            
+        }
+        else
+        {System.out.println("FUCK YOU PIFF CORP DON'T FUCK WITH YOU");}
+    }
+    if(songchoice.equals("james freestyle") || songchoice.equals("noah woods beanie") || songchoice.equals("brightbart") || songchoice.equals("meowxerz") || songchoice.equals("piff clit") || songchoice.equals("terraria 2"))
+    {
+        System.out.println("Not some of our personal favorites, but still sum heat. Would you like to listen to " +songchoice+ "?");
+        Scanner piffsong3 = new Scanner(System.in);
+        String listen2 = piffsong3.nextLine().toLowerCase();
+        if(listen2.equals("yes"))
+        {System.out.println("sample_text");}
+        else
+        {System.out.println("FUCK YOU LUKE GONNA SHOOT YOU");}
+       
+    }
+    else{
+        if(songchoice.equals("fuck grace ACAB"))
+        {
+            System.out.println("sample_text");
+        }
+    }
+    
+    System.exit(0);
+    
+}
+}
